@@ -1,30 +1,30 @@
 export const navigationItems = [
   {
-    name: "Home",
+    name: "🏠 Home",
     path: "/",
   },
   {
-    name: "Snake",
+    name: "🐍 Snake Game",
     path: "/snake",
   },
   {
-    name: "Car Racing",
+    name: "🚗 Car Racing",
     path: "/car-racing",
   },
   {
-    name: "Bubble Blast",
+    name: "🫧 Bubble Blast",
     path: "/bubble-blast",
   },
   {
-    name: "Love Game",
+    name: "❤️ Love Game",
     path: "/love-game",
   },
   {
-    name: "Roast Me",
+    name: "😂 Roast Me",
     path: "/roast-me",
   },
   {
-    name: "Donate",
+    name: "💝 Donate",
     path: "/donate",
   },
 ];
