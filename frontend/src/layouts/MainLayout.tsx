@@ -5,7 +5,8 @@ import Header from "./Header";
 import Sidebar from "./Sidebar";
 
 const MainLayout = () => {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [isSidebarOpen, setIsSidebarOpen] =
+    useState(false);
 
   const toggleSidebar = () => {
     setIsSidebarOpen((prev) => !prev);
@@ -24,11 +25,12 @@ const MainLayout = () => {
         onClose={closeSidebar}
       />
 
-      {/* 64px header + 32px spacing */}
       <main
         className="min-h-screen bg-gray-100 px-6 py-8"
-        style={{ paddingTop: "calc(64px + 2rem)" }}
-        >
+        style={{
+          paddingTop: "calc(64px + 2rem)",
+        }}
+      >
         <Outlet />
       </main>
     </div>
