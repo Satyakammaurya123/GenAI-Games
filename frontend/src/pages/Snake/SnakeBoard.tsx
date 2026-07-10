@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 
 import type {
   Direction,
-  Position,
 } from "./SnakeTypes";
 
 import {
@@ -26,7 +25,6 @@ type SnakeBoardProps = {
 
 const SnakeBoard = ({
   started,
-  score,
   setScore,
 }: SnakeBoardProps) => {
   const [snake, setSnake] =
